@@ -1,0 +1,52 @@
+//write in console
+console.log('hellow world');
+
+// object
+let person = {
+  name: 'saif',
+  age: 20,
+};
+console.log(person);
+
+// dot notation
+person.age = 21;
+console.log(person.age);
+
+//bracket notation
+let change = 'name';
+person[change] = 'ashraf';
+console.log(person.name);
+
+//array
+let arr = ['saif', 'youssef', 'maram'];
+console.log(arr);
+arr[3] = 'yassin';
+console.log(arr);
+console.log(arr.length);
+
+//functions
+
+// 1-performaing a task
+function print(name) {
+  console.log('hellow ' + name);
+}
+print('saif');
+
+// 2- calculating a value
+function square(number) {
+  return number * number;
+}
+console.log(square(2));
+
+console.log(`hellow${name}`);
+
+//jason string
+const doJason = JSON.stringify(arr);
+console.log(doJason);
+
+
+//arrow function
+const addNum = (num1) => num1 + 5;
+console.log(addNum(5))
+
+dom :document object model
